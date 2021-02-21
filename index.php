@@ -1,5 +1,3 @@
-<?php?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -12,23 +10,15 @@
 <body>
     <h1 >Telecommunication Recharge Pin</h1>
     <?php
-
-
-
  function teleCom(){
      
      for ($i=0; $i <=200; $i++) { 
          # code...
          $pin = random_int(1000000000000000, 9000000000000000);
           echo " <div> $pin </div>   <br>"; 
-         
-     }
-     
-   
- }
+         }
+      }
 teleCom();
-
 ?>
-
 </body>
 </html>
